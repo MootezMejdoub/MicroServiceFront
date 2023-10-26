@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function NavBar() {
   return (
     <div>
@@ -67,6 +69,9 @@ export default function NavBar() {
                     </li>
                     <li>
                       <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                      <Link to="/profile">Profile</Link>
                     </li>
                     <li>
                       <a href="shop.html">Shop</a>
