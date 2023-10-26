@@ -8,6 +8,10 @@ import { UserTable } from "./Components/User/userTable";
 import Ticket from './Components/Ticket/Ticket';
 import TicketBack from './Components/admin/TicketBack';
 import MyTicket from "./Components/Ticket/MyTicket";
+import EventList from './Components/Event/EventList';
+import EventCreate from './Components/Event/EventCreate';
+import EventUpdate from './Components/Event/EventUpdate';
+import EventSearch from './Components/Event/EventSearch';
 function App() {
   return (
     <div className="App">
@@ -20,6 +24,11 @@ function App() {
         <Route path="/Ticket" element={<Ticket/>}></Route>
        <Route path="/TicketBack" element={<TicketBack/>}></Route>
        <Route path="/myTickets" element={<MyTicket/>}></Route>
+        <Route path="/eventlist" element={<EventList />} />
+        <Route path="/EventCreate" element={<EventCreate />} />
+        <Route path="/EventUpdate" element={<EventUpdate />} />
+        <Route path="/EventSearch" element={<EventSearch />} />
+
        
       </Routes>
     </div>
