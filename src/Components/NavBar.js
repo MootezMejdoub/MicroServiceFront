@@ -72,6 +72,7 @@ export default function NavBar() {
                      <Link to="/Ticket">Tickets</Link>                        
                  
                  </li>
+		<li><a href="/EventList">Event</a></li>
                  <li>
                    
                      <Link to="/myTickets">My Tickets</Link>                        
