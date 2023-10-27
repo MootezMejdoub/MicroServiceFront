@@ -68,6 +68,16 @@ export default function NavBar() {
                       </ul>
                     </li>
                     <li>
+                 
+                     <Link to="/Ticket">Tickets</Link>                        
+                 
+                 </li>
+                 <li>
+                   
+                     <Link to="/myTickets">My Tickets</Link>                        
+                   
+                 </li>
+                    <li>
                       <a href="contact.html">Contact</a>
                     </li>
                     <li>
